@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Warsztat_CSS_HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        
+    <nav class="row wide-text">
+        <article>
+        <p class="menu1 uppercase">sit<span class="aquamarineText"> on </span>
+            chair
+            </p>
+        </article>
+        <ol>    
+            <li class="lista">
+               <a class="uppercase">o firmie</a>
+        <ul>
+            <li>Aktualności</li>
+            <li>Nasz team</li>
+            <li>Historia</li>
+          </ul>
+                </li>
+            <li class="uppercase">galeria</li>
+            <li class="uppercase">kontakt</li>
+
+        </ol>
+        </nav>
+        </header>
+        
+    <!-----------Main------------------>
+    <main class="main">
+    
+        <div class="row">
+        
+            
+            <div class="mainLeft"></div>
+            
+            <div class="mainRight">
+                <h1 class="uppercase">Sit <span class="aquamarineText bold-text">on</span> our <span class="aquamarineText bold-text">Chair</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <button class="main-button uppercase">Zobacz więcej</button>
+            </div>
+            
+        </div>
+    
+    </main>
+    
+    <!-- ---------Section2--------- -->
+    <section class="row">
+        
+        <div class="section2 row">
+            <article class="col-3 section2-left">
+            
+                <h3 class="chair border-bottom">Chair CLAIR</h3>
+            
+            </article>
+            
+            <article class="section2-middle">
+            
+                <h3 class="chair border-bottom">Chair MARGARITA</h3>
+                
+            </article>
+            
+            <article class="section2-right">
+                <h3 class="border-bottom">Find all inputs</h3>
+                <p>Cupcake sweet roll pastry tootsie roll danish topping. Bonbon bear claw pie biscuit jelly beans chocolate lemon drops. Wafer biscuit bear claw fruitcake. Sweet chocolate cake gingerbread tiramisu cookie sugar plum jelly beans danish. Marshmallow gummi bears macaroon sweet chocolate cake. </p>
+            
+            
+            </article>
+        
+        
+        </div>
+    
+    </section>
+    
+<!-- -------------Section 3- Pricelists ----------------- -->
+    <section class="lightGreyBackground">
+        <div class='row'>
+            
+            <div>
+                <h2 class="uppercase">Pricelist</h2>
+            </div>
+            <div class="columns">
+                <ul id="circle1Back" class="lightGreyBackground">
+                        <div class="circle1 whiteBack">
+                            <div class="circle2 greyBackground"></div>
+                        </div>   
+                </ul>
+                <ul class="price">
+                    <li class="grey97Background aquamarineText header uppercase">Basic plan</li>
+                    <li class=" grey97Background bottom circleBack">
+                        <div class="circle greyTxt">85.99<br>PLN/year</div>
+                    </li>
+                    <li class="greyBackground greyTxt">Zakup towaru + dowóz</li>
+                    <li class="lightGreyBackground greyTxt">Serwis</li>
+                    <li class="grey97Background priceHeight"> </li>
+                    <li class="grey97Background priceHeight"> </li>
+                    <li class="grey97Background"><a href="#" class="main-button uppercase">Dołącz</a></li>
+                </ul>
+            </div>
+
+         <div class="columns">
+                <ul id="circle1Back2" class="lightGreyBackground">
+                        <div class="circle1 MediumAquamarineBack">
+                            <div class="circle2 whiteBack"></div>
+                        </div>   
+                </ul>
+                <ul class="price">
+                    <li class="MediumAquamarineBack whiteText header uppercase">Standard plan</li>
+                    <li class=" MediumAquamarineBack bottom circleBack">
+                        <div class="circle aquamarineText">95.99<br>PLN/year</div>
+                    </li>
+                    <li class="whiteBack greyTxt">Zakup towaru + dowóz</li>
+                    <li class="lightGreyBackground greyTxt">Serwis</li>
+                    <li class="grey97Background greyTxt">Gwarancja 5 lat</li>
+                    <li class="MediumAquamarineBack priceHeight"> </li>
+                    <li class="MediumAquamarineBack"><a href="#" class="main-button1 uppercase">Dołącz</a></li>
+                </ul>
+            </div>
+            
+            <div class="columns">
+                <ul id="circle1Back2" class="lightGreyBackground">
+                        <div class="circle1 whiteBack">
+                            <div class="circle2 greyBackground"></div>
+                        </div>   
+                </ul>
+                <ul class="price">
+                    <li class="grey97Background aquamarineText header uppercase">advance plan</li>
+                    <li class=" grey97Background bottom circleBack">
+                        <div class="circle greyTxt">211.99<br>PLN/year</div>
+                    </li>
+                    <li class="greyBackground greyTxt">Zakup towaru + dowóz</li>
+                    <li class="lightGreyBackground greyTxt">Serwis</li>
+                    <li class="greyBackground greyTxt">Gwarancja 8 lat</li>
+                    <li class="lightGreyBackground greyTxt">Porady projektanta</li>
+                    <li class="grey97Background"><a href="#" class="main-button uppercase">Dołącz</a></li>
+                </ul>
+            </div>
+
+        </div>
+   </section>
+
+<!-- Section4 -->
+    <section class='contact'>
+      <div class='row'>
+        <div class='form-aside' style='background-image: url("images/red_chair.png")'></div>
+        <h2 class=' uppercase'>Kontakt</h2>
+        <form>
+          <input type='text' name='name' placeholder='Imię'>
+          <input type='text' name='email' placeholder='email'>
+          <textarea rows='4' name='message' placeholder='Wiadomość'></textarea>
+          <input type='checkbox' id='agree-box'>
+          <label class='wide-txt' for='agree-box'>
+            Zgadzam się na przetwarzanie danych osobowych
+          </label>
+          <input type='submit' value='Wyślij' class='main-button uppercase '>
+        </form>
+      </div>
+    </section>
+  </main>
+
+<!-- FOOTER -->
+  <footer>
+    <div class='row'>
+      <p class='copyright wide-txt'>
+        Copyright 2014 | All rights reserved - Sit on Chair by Joanna Wolańska
+      </p>
+      <p class='footer-brand uppercase wide-txt'>
+        Sit <span class='bold-txt'>on</span> Chair
+      </p>
+      <ul class='footer-social'>
+        <li style='background-image: url("images/flickr.png")'></li>
+        <li style='background-image: url("images/vimeo.png")'></li>
+        <li style='background-image: url("images/pinterest.png")'></li>
+        <li style='background-image: url("images/twitter.png")'></li>
+      </ul>
+    </div>
+  </footer>
+ 
+</body>
+</html>
